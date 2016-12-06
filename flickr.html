@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Swagg</title>
+
+	<link rel="stylesheet"  href="support/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css" />
+	<link rel="stylesheet"  href="css/flickr.css" />
+	
+	<!--Importe le fichier css-->
+
+	<script src="support/jquery-2.0.3.min.js"></script>
+	<script src="support/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js"> </script>
+	<script src="js/flikrAPI.js"></script>
+</head>
+	
+	
+<body>
+	
+	<div data-role="page" id = "_FLICKER">
+		<div data-role="header">
+			<h1>les images flikr</h1>
+		</div>
+
+		<div data-role="content" >
+			<h2> Choisissez votre image !</h2>
+				<!-- <div class="ui-field-contain">
+				<label for="name">Rentrez un mot clé en rapport avec la Mangathèque</label>
+				<input type="text" name="name" id="name" value="" data-mini="true">
+	
+			</div>
+			<div class=ligne><input id="go2" type="button" value = "Rechercher"/></div>
+			
+			<p></p> -->
+			
+			
+			<div class="swiper" id="monImageF">
+			</div>
+			
+			
+			<p></p>
+			<div class="ligne"> 
+				<input id="prec" type="button" value = "<"/>
+			</div>
+			 <div class="ligne"> 
+				<input id="suiv" type="button" value = ">"/>
+			</div>
+		</div>
+	
+		<div data-role="footer" data-position="fixed">
+			<p>&copy; Ambonati no Ken and Lin Feixia-chan</p>
+		</div>
+		
+	</div>
+</body>
+</html>

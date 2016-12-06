@@ -1,0 +1,28 @@
+.ligne{
+display : inline-block;
+
+margin-left : 1px;
+margin-right : 1px;
+}
+#_FLICKER{
+	text-align : center;
+}
+
+
+.IP{
+	width : 50px;
+	height : 50px;
+}
+
+.IN{
+	width : 120px;
+	height : 120px;
+}
+
+#swiper-licorne{
+	padding-top : 20 px;
+	padding-bottom : 20 px;
+	width : 234px;
+	height : 100px;
+	background-color : pink;
+}

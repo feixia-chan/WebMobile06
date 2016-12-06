@@ -1,0 +1,41 @@
+.shadow{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	margin-right : 3px;
+	margin-bottom : 1px;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	}
+	
+	
+
+.skip{
+	height:0px;
+}
+
+#base{
+	text-align: center;
+}
+
+#popup1 {
+	display: inline;
+	padding: 10px;
+}
+
+#divPopup {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#compteur {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	text-align: center;
+	font: bold 20px arial, sans-serif;
+}
+.ligne-licorne{
+	display : inline-block;
+}
+
